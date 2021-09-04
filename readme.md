@@ -21,6 +21,8 @@ Viewer app features highlights:
 {
     timetamp: 1630712587111,// unix timestamp in ms
     level: "INFO",          // TRACE | DEBUG | INFO | WARN  | ERROR
+    // (optional) full message override
+    text: "02:46:35:975  [INFO] log message",    
     msg: "log message",     // actual log entry
     user: "fred",           // name of entry owner
     room: 'my-room'         // used to group logs
